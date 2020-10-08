@@ -1,0 +1,182 @@
+@import url('ref="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+body{
+  background: linear-gradient(45deg, #0a1217, #15191e);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+h2{
+  font-family: open sans, arial;
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 50px;
+}
+
+
+.bnt-twitter{
+
+  background: linear-gradient(to left, #02abb0, #01cbad);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+  padding-left: 13px;
+}
+
+
+.bnt-twitter:hover{
+
+  width: 120px;
+  padding-right: 60px;
+
+
+
+}
+
+
+.bnt-twitter span{
+  font-family: open sans, arial;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: 0.3s;
+  padding-right: 100%;
+  padding-top: 100%;
+  padding-bottom: 100%;
+  
+}
+
+.bnt-twitter span:hover{
+ 
+  opacity: 100;
+
+}
+
+
+
+
+.bnt-facebook{
+
+  background: linear-gradient(to left, #02abb0, #01cbad);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+  padding-left: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.bnt-facebook:hover{
+
+  width: 120px;
+  padding-right: 60px;
+
+
+}
+
+
+.bnt-facebook span{
+  font-family: open sans, arial;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: 0.3s;
+  padding-right: 100%;
+  padding-top: 100%;
+  padding-bottom: 100%;
+  
+}
+
+.bnt-facebook span:hover{
+ 
+  opacity: 100;
+
+}
+
+
+
+
+.bnt-instagram{
+
+  background: linear-gradient(to left, #02abb0, #01cbad);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  overflow: hidden;
+  padding-left: 15px;
+}
+
+
+.bnt-instagram:hover{
+
+  width: 120px;
+  padding-right: 60px;
+
+
+}
+
+
+
+
+.bnt-instagram span{
+  font-family: open sans, arial;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  padding-right: 100%;
+  padding-top: 100%;
+  padding-bottom: 100%;
+  
+}
+
+.bnt-instagram span:hover{
+ 
+  opacity: 100;
+
+}
+
+
+
+
+
+
+
+
+
+
